@@ -1,0 +1,46 @@
+
+
+.text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  background: linear-gradient(
+    45deg,
+    #2e7fc0,
+    #1446ea
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+h5{
+  background: url(./img/Dropbox_Icon.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  margin-left: 450px;
+  margin-top: 80px;
+}
+
+.paragraf{
+  margin-left: 300px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
